@@ -192,9 +192,9 @@ local function duplicateCardsAndLaptops()
         end)
     end
 
-    wait(4)
+    wait(0.6)
     player.Backpack.Laptop.Parent = player.Character
-    wait(4)
+    wait(0.6)
 
     -- Process Cards
     StatusLabel.Text = "Processing cards..."
@@ -212,7 +212,7 @@ local function duplicateCardsAndLaptops()
         end)
     end
 
-    wait(1)
+    wait(0.6)
     StatusLabel.Text = "Duplication Complete!"
     player.Character.Humanoid:UnequipTools()
 end
