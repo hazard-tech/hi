@@ -126,7 +126,7 @@ local function duplicateCardsAndLaptops()
 
     -- Open Dealer UI
     fireclickdetector(game.Workspace["Streetz War"].Anonymous.ClickDetector)
-    wait(2) -- Wait to ensure the UI is open
+    wait(1) -- Wait to ensure the UI is open
     player.PlayerGui:WaitForChild("DealerGui")
     local shopGui = player.PlayerGui.DealerGui.ShopFrame
     shopGui.Visible = true
